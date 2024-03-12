@@ -4,4 +4,8 @@
 #c
 c/*
 c/*.o
-c/**/*   #gcc
+c/**/*
+!c/gcc
+!c/gcc/*.c
+!c/gcc/lib/
+!c/gcc/lib/*.h
